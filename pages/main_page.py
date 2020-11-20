@@ -1,22 +1,14 @@
-from seleniumbase import BaseCase
-
-
-class MainPage(BaseCase):
-    _PAGE_TITLE = ".heading"
-    _ADD_REMOVE_ELEMENTS = "[href='/add_remove_elements/']"
-    _BASIC_AUTH = "[href='/basic_auth']"
-    _CHALLENGING_DOM = "[href='/challenging_dom']"
-    _CHECK_BOXES = "[href='/checkboxes']"
-    _CONTEXT_MENU = "href='/context_menu']"
-    _FORGOT_PASSWORD = "[href='/forgot_password']"
-    _DROP_DOWN = "[href='/dropdown']"
-    _DYNAMIC_CONTROLS = "[href='/dynamic_controls']"
-    _FORM_AUTHENTICATION = "[href='/login']"
-    _JAVASCRIPT_ALERTS = "[href='/javascript_alerts']"
-    _KEY_PRESSES = "[href='/key_presses']"
-    _NOTIFICATION_MESSAGE = "[href='/notification_message']"
-
-    def click_add_remove_elements(self):
-        self.click(self._ADD_REMOVE_ELEMENTS)
-
-    
+class MainPage:
+    page_title = ".heading"
+    add_remove_elements = "[href='/add_remove_elements/']"
+    basic_auth = "[href='/basic_auth']"
+    challenging_dom = "[href='/challenging_dom']"
+    check_boxes = "[href='/checkboxes']"
+    context_menu = "href='/context_menu']"
+    forgot_password = "[href='/forgot_password']"
+    drop_down = "[href='/dropdown']"
+    dynamic_controls = "[href='/dynamic_controls']"
+    form_authentication = "[href='/login']"
+    javascript_alerts = "[href='/javascript_alerts']"
+    key_presses = "[href='/key_presses']"
+    notification_message = "[href='/notification_message']"
