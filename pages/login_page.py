@@ -6,4 +6,4 @@ class LoginPage:
     message = "#flash"
     logout_button = ".button.secondary.radius"
 
-
+    
