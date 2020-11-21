@@ -5,7 +5,7 @@ class MainPage:
     challenging_dom = "[href='/challenging_dom']"
     check_boxes = "[href='/checkboxes']"
     context_menu = "href='/context_menu']"
-    forgot_password = "[href='/forgot_password']"
+    forgot_password = "Forgot Password"
     drop_down = "[href='/dropdown']"
     dynamic_controls = "[href='/dynamic_controls']"
     form_authentication = "[href='/login']"

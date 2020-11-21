@@ -8,7 +8,7 @@ class TestForgotPassword(BaseTestCase):
 
     @allure.description("Send a password reset email via forgot password")
     def test_forgot_password(self):
-        self.click(MainPage.forgot_password)
+        self.click_link_text(MainPage.forgot_password)
         self.assert_element(ForgotPassword.retrieve_password_button)
         self.type(ForgotPassword.email_field, "some_email@gmail.com")
         self.click(ForgotPassword.retrieve_password_button)
