@@ -5,5 +5,3 @@ class LoginPage:
     login_button = "[type='submit']"
     message = "#flash"
     logout_button = ".button.secondary.radius"
-
-    
