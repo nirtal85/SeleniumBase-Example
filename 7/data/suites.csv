@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Nov 21 21:46:48 GMT 2020","Sat Nov 21 21:46:49 GMT 2020","502","tests","test_add_remove_elements","TestAddRemoveElements","","","test_add_element","Add new element to page"
+"broken","Sat Nov 21 21:46:52 GMT 2020","Sat Nov 21 21:46:52 GMT 2020","117","tests","test_forgot_password","TestForgotPassword","","","test_forgot_password","Send a password reset email via forgot password"
+"broken","Sat Nov 21 21:46:52 GMT 2020","Sat Nov 21 21:46:52 GMT 2020","115","tests","test_add_remove_elements","TestAddRemoveElements","","","test_delete_element","Delete an added element from page"
