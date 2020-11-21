@@ -2,38 +2,38 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test_add_element",
-    "uid" : "ed76ca5b105997d6",
+    "uid" : "f95b4c0b81af67c2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1605990928990,
-      "stop" : 1605990929360,
-      "duration" : 370
+      "start" : 1605990985260,
+      "stop" : 1605990985688,
+      "duration" : 428
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_delete_element",
-    "uid" : "8f34382fe86506c1",
+    "uid" : "47c7c6b36a083be3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1605990931306,
-      "stop" : 1605990931425,
-      "duration" : 119
+      "start" : 1605990988167,
+      "stop" : 1605990988282,
+      "duration" : 115
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_forgot_password",
-    "uid" : "73485a558587e0e9",
+    "uid" : "ca9b95533ab793fa",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1605990931642,
-      "stop" : 1605990931757,
+      "start" : 1605990988490,
+      "stop" : 1605990988605,
       "duration" : 115
     },
     "flaky" : false,

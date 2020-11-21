@@ -1,12 +1,12 @@
 {
-  "uid" : "ed76ca5b105997d6",
+  "uid" : "f95b4c0b81af67c2",
   "name" : "test_add_element",
   "fullName" : "tests.test_add_remove_elements.TestAddRemoveElements#test_add_element",
   "historyId" : "1ae687e609ee12c3a140c0f757f2bc39",
   "time" : {
-    "start" : 1605990928990,
-    "stop" : 1605990929360,
-    "duration" : 370
+    "start" : 1605990985260,
+    "stop" : 1605990985688,
+    "duration" : 428
   },
   "description" : "Add new element to page",
   "descriptionHtml" : "<p>Add new element to page</p>\n",
@@ -18,8 +18,8 @@
   "beforeStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup",
     "time" : {
-      "start" : 1605990928975,
-      "stop" : 1605990928975,
+      "start" : 1605990985241,
+      "stop" : 1605990985241,
       "duration" : 0
     },
     "status" : "passed",
@@ -34,9 +34,9 @@
   "afterStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup::0",
     "time" : {
-      "start" : 1605990931638,
-      "stop" : 1605990931638,
-      "duration" : 0
+      "start" : 1605990988487,
+      "stop" : 1605990988488,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -58,10 +58,10 @@
     "value" : "TestAddRemoveElements"
   }, {
     "name" : "host",
-    "value" : "fv-az139-325"
+    "value" : "fv-az67-871"
   }, {
     "name" : "thread",
-    "value" : "4708-MainThread"
+    "value" : "4724-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -89,6 +89,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "ed76ca5b105997d6.json",
+  "source" : "f95b4c0b81af67c2.json",
   "parameterValues" : [ ]
 }
