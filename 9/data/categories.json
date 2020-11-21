@@ -6,25 +6,25 @@
       "name" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
       "children" : [ {
         "name" : "test_add_element",
-        "uid" : "5dbe61ee2dbbad57",
+        "uid" : "2d660c8fcf993f1c",
         "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
         "status" : "broken",
         "time" : {
-          "start" : 1605995216596,
-          "stop" : 1605995217196,
-          "duration" : 600
+          "start" : 1605996158102,
+          "stop" : 1605996158461,
+          "duration" : 359
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_delete_element",
-        "uid" : "adb72a82a2d99579",
+        "uid" : "fd8249cf05acb350",
         "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
         "status" : "broken",
         "time" : {
-          "start" : 1605995220688,
-          "stop" : 1605995220805,
+          "start" : 1605996161285,
+          "stop" : 1605996161402,
           "duration" : 117
         },
         "flaky" : false,
@@ -32,12 +32,12 @@
         "parameters" : [ ]
       }, {
         "name" : "test_forgot_password",
-        "uid" : "64a0a6bd4cbf251d",
+        "uid" : "18d95dd5b0062d32",
         "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
         "status" : "broken",
         "time" : {
-          "start" : 1605995221015,
-          "stop" : 1605995221131,
+          "start" : 1605996161612,
+          "stop" : 1605996161728,
           "duration" : 116
         },
         "flaky" : false,
