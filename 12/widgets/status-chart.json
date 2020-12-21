@@ -1,0 +1,31 @@
+[ {
+  "uid" : "cd7ee0c9dd249c95",
+  "name" : "test_forgot_password",
+  "time" : {
+    "start" : 1608577241232,
+    "stop" : 1608577241347,
+    "duration" : 115
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "61a40e1e9904f7b8",
+  "name" : "test_add_element",
+  "time" : {
+    "start" : 1608577239080,
+    "stop" : 1608577239325,
+    "duration" : 245
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fee04d007c25023",
+  "name" : "test_delete_element",
+  "time" : {
+    "start" : 1608577240876,
+    "stop" : 1608577240991,
+    "duration" : 115
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
