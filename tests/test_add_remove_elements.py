@@ -12,6 +12,8 @@ class TestAddRemoveElements(BaseTestCase):
         self.assert_element(addrem.add_element_button)
         self.click(addrem.add_element_button)
         self.assert_element_visible(addrem.delete_added_elements_buttons_list)
+        link_list = self.find_elements(addrem.delete_added_elements_buttons_list)
+        self.assert_true(len(link_list) == 0)
 
     @allure.description("Delete an added element from page")
     def test_delete_element(self):
