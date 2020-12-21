@@ -14,8 +14,9 @@ class BaseTestCase(BaseCase):
 
     @allure.description("Terminate test and close browser")
     def tearDown(self):
-        self.save_teardown_screenshot()
         if self.has_exception():
+            allure.attach(self.driver.get_screenshot_as_png(), name='On failure screenshot',
+                          attachment_type=allure.attachment_type.PNG)
             print("Test Failed!")
         else:
             print("Test Passed!")
