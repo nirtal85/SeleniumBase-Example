@@ -9,14 +9,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cd7ee0c9dd249c95",
-      "reportUrl" : "https://nirtal85.github.io/SeleniumBase-Example/12//#testresult/cd7ee0c9dd249c95",
+      "uid" : "57f6c9326ab1cd1a",
+      "reportUrl" : "https://nirtal85.github.io/SeleniumBase-Example/13//#testresult/57f6c9326ab1cd1a",
       "status" : "broken",
       "statusDetails" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
       "time" : {
-        "start" : 1608577241232,
-        "stop" : 1608577241347,
-        "duration" : 115
+        "start" : 1609618341325,
+        "stop" : 1609618341448,
+        "duration" : 123
       }
     } ]
   },
@@ -30,14 +30,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61a40e1e9904f7b8",
-      "reportUrl" : "https://nirtal85.github.io/SeleniumBase-Example/12//#testresult/61a40e1e9904f7b8",
+      "uid" : "794b7c967d1d82a4",
+      "reportUrl" : "https://nirtal85.github.io/SeleniumBase-Example/13//#testresult/794b7c967d1d82a4",
       "status" : "broken",
       "statusDetails" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
       "time" : {
-        "start" : 1608577239080,
-        "stop" : 1608577239325,
-        "duration" : 245
+        "start" : 1609618340463,
+        "stop" : 1609618340613,
+        "duration" : 150
       }
     } ]
   },
@@ -51,14 +51,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fee04d007c25023",
-      "reportUrl" : "https://nirtal85.github.io/SeleniumBase-Example/12//#testresult/fee04d007c25023",
+      "uid" : "e605e6a85a65c08c",
+      "reportUrl" : "https://nirtal85.github.io/SeleniumBase-Example/13//#testresult/e605e6a85a65c08c",
       "status" : "broken",
       "statusDetails" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
       "time" : {
-        "start" : 1608577240876,
-        "stop" : 1608577240991,
-        "duration" : 115
+        "start" : 1609618340981,
+        "stop" : 1609618341097,
+        "duration" : 116
       }
     } ]
   }

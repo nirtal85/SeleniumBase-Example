@@ -1,12 +1,12 @@
 {
-  "uid" : "fee04d007c25023",
+  "uid" : "e605e6a85a65c08c",
   "name" : "test_delete_element",
   "fullName" : "tests.test_add_remove_elements.TestAddRemoveElements#test_delete_element",
   "historyId" : "3a40d269ebd35350dc953972c2151801",
   "time" : {
-    "start" : 1608577240876,
-    "stop" : 1608577240991,
-    "duration" : 115
+    "start" : 1609618340981,
+    "stop" : 1609618341097,
+    "duration" : 116
   },
   "description" : "Delete an added element from page",
   "descriptionHtml" : "<p>Delete an added element from page</p>\n",
@@ -18,8 +18,8 @@
   "beforeStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup",
     "time" : {
-      "start" : 1608577239068,
-      "stop" : 1608577239068,
+      "start" : 1609618340460,
+      "stop" : 1609618340460,
       "duration" : 0
     },
     "status" : "passed",
@@ -34,8 +34,8 @@
   "afterStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup::0",
     "time" : {
-      "start" : 1608577241229,
-      "stop" : 1608577241229,
+      "start" : 1609618341323,
+      "stop" : 1609618341323,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,7 +61,7 @@
     "value" : "fv-az40-378"
   }, {
     "name" : "thread",
-    "value" : "4809-MainThread"
+    "value" : "4762-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -89,6 +89,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "fee04d007c25023.json",
+  "source" : "e605e6a85a65c08c.json",
   "parameterValues" : [ ]
 }
