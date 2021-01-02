@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_add_remove_elements",
+      "children" : [ {
+        "name" : "TestAddRemoveElements",
+        "children" : [ {
+          "name" : "test_add_element",
+          "uid" : "1a74295b2c76908a",
+          "parentUid" : "286c9bc7c042768bc1c9edde5431d779",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609621347747,
+            "stop" : 1609621348003,
+            "duration" : 256
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_delete_element",
+          "uid" : "8af98242c7d355d2",
+          "parentUid" : "286c9bc7c042768bc1c9edde5431d779",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609621349831,
+            "stop" : 1609621349946,
+            "duration" : 115
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "286c9bc7c042768bc1c9edde5431d779"
+      } ],
+      "uid" : "343a74aeb400cdc1eb211e713fc0b0bb"
+    }, {
+      "name" : "test_forgot_password",
+      "children" : [ {
+        "name" : "TestForgotPassword",
+        "children" : [ {
+          "name" : "test_forgot_password",
+          "uid" : "cd1b3c2bd5739eb0",
+          "parentUid" : "4e4e2c57e3caf1588090c0825578368a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609621350165,
+            "stop" : 1609621350279,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4e4e2c57e3caf1588090c0825578368a"
+      } ],
+      "uid" : "3ef0f9695f6ddb43eac21869b4a67057"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogIn",
+        "children" : [ {
+          "name" : "test_invalid_login",
+          "uid" : "44784a0c2858740c",
+          "parentUid" : "1dd4fb64c0ed6dc4099bc7635f163edf",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609621350481,
+            "stop" : 1609621350595,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_valid_login",
+          "uid" : "1db6ae0d3a857740",
+          "parentUid" : "1dd4fb64c0ed6dc4099bc7635f163edf",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609621350783,
+            "stop" : 1609621350897,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1dd4fb64c0ed6dc4099bc7635f163edf"
+      } ],
+      "uid" : "d705d85621c348f9ae8ade89e0447582"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
+      "children" : [ {
+        "name" : "test_add_element",
+        "uid" : "1a74295b2c76908a",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609621347747,
+          "stop" : 1609621348003,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_element",
+        "uid" : "8af98242c7d355d2",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609621349831,
+          "stop" : 1609621349946,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_forgot_password",
+        "uid" : "cd1b3c2bd5739eb0",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609621350165,
+          "stop" : 1609621350279,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invalid_login",
+        "uid" : "44784a0c2858740c",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609621350481,
+          "stop" : 1609621350595,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_valid_login",
+        "uid" : "1db6ae0d3a857740",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609621350783,
+          "stop" : 1609621350897,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fce4b00e494e70aa92f96a0a3f17d73e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
