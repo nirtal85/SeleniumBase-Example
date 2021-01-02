@@ -1,0 +1,51 @@
+[ {
+  "uid" : "1cde07b45a4e1966",
+  "name" : "test_forgot_password",
+  "time" : {
+    "start" : 1609619309212,
+    "stop" : 1609619309326,
+    "duration" : 114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c6d37546520d71f7",
+  "name" : "test_add_element",
+  "time" : {
+    "start" : 1609619306880,
+    "stop" : 1609619307196,
+    "duration" : 316
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60972b4382a63a68",
+  "name" : "test_invalid_login",
+  "time" : {
+    "start" : 1609619309521,
+    "stop" : 1609619309635,
+    "duration" : 114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3d1466ae404f0ea8",
+  "name" : "test_valid_login",
+  "time" : {
+    "start" : 1609619309818,
+    "stop" : 1609619309932,
+    "duration" : 114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60455877a5285037",
+  "name" : "test_delete_element",
+  "time" : {
+    "start" : 1609619308889,
+    "stop" : 1609619309004,
+    "duration" : 115
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

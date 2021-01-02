@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Jan 02 20:28:29 GMT 2021","Sat Jan 02 20:28:29 GMT 2021","114","tests","test_forgot_password","TestForgotPassword","","","test_forgot_password","Send a password reset email via forgot password"
+"broken","Sat Jan 02 20:28:26 GMT 2021","Sat Jan 02 20:28:27 GMT 2021","316","tests","test_add_remove_elements","TestAddRemoveElements","","","test_add_element","Add new element to page"
+"broken","Sat Jan 02 20:28:29 GMT 2021","Sat Jan 02 20:28:29 GMT 2021","114","tests","test_login","TestLogIn","","","test_invalid_login","Login with invalid credentials"
+"broken","Sat Jan 02 20:28:29 GMT 2021","Sat Jan 02 20:28:29 GMT 2021","114","tests","test_login","TestLogIn","","","test_valid_login","Login with valid credentials"
+"broken","Sat Jan 02 20:28:28 GMT 2021","Sat Jan 02 20:28:29 GMT 2021","115","tests","test_add_remove_elements","TestAddRemoveElements","","","test_delete_element","Delete an added element from page"
