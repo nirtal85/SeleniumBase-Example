@@ -12,7 +12,7 @@ class TestCheckBox(BaseTestCase):
     def test_select_checkbox_1(self):
         self.click_link_text(MainPage.check_boxes)
         self.assert_element_visible(CheckBox.page_title, By.XPATH)
-        checkbox_list = self.find_elements(CheckBox.checkboxes, By.CSS_SELECTOR)
+        checkbox_list = self.find_elements(CheckBox.checkboxes)
         checkbox_list[0].click()
         self.assert_true(checkbox_list[0].is_selected())
 
