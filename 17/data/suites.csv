@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Jan 13 07:56:01 GMT 2021","Wed Jan 13 07:56:02 GMT 2021","117","tests","test_login","TestLogIn","","","test_valid_login","Login with valid credentials"
-"broken","Wed Jan 13 07:56:00 GMT 2021","Wed Jan 13 07:56:00 GMT 2021","117","tests","test_checkbox","TestCheckBox","","","test_select_checkbox_1","Select an unchecked checkbox"
-"broken","Wed Jan 13 07:56:00 GMT 2021","Wed Jan 13 07:56:00 GMT 2021","121","tests","test_add_remove_elements","TestAddRemoveElements","","","test_delete_element","Delete an added element from page"
-"broken","Wed Jan 13 07:56:01 GMT 2021","Wed Jan 13 07:56:01 GMT 2021","117","tests","test_login","TestLogIn","","","test_invalid_login","Login with invalid credentials"
-"broken","Wed Jan 13 07:55:58 GMT 2021","Wed Jan 13 07:55:58 GMT 2021","357","tests","test_add_remove_elements","TestAddRemoveElements","","","test_add_element","Add new element to page"
-"broken","Wed Jan 13 07:56:01 GMT 2021","Wed Jan 13 07:56:01 GMT 2021","118","tests","test_forgot_password","TestForgotPassword","","","test_forgot_password","Send a password reset email via forgot password"
-"broken","Wed Jan 13 07:56:00 GMT 2021","Wed Jan 13 07:56:00 GMT 2021","117","tests","test_checkbox","TestCheckBox","","","test_un_select_checkbox_2","Un-select a checked checkbox"

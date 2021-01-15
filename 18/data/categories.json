@@ -1,0 +1,104 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
+      "children" : [ {
+        "name" : "test_add_element",
+        "uid" : "a03a76e444faed00",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610688879886,
+          "stop" : 1610688880081,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_element",
+        "uid" : "f9e9f69ba2f11205",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610688881438,
+          "stop" : 1610688881553,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_select_checkbox_1",
+        "uid" : "29be459821cd760b",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610688881771,
+          "stop" : 1610688881885,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_un_select_checkbox_2",
+        "uid" : "4d0e8d40659e67b8",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610688882090,
+          "stop" : 1610688882204,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_forgot_password",
+        "uid" : "85e427551e0dad1c",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610688882393,
+          "stop" : 1610688882508,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invalid_login",
+        "uid" : "125a4b3048cf2d92",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610688882716,
+          "stop" : 1610688882830,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_valid_login",
+        "uid" : "a7448b1bfd6dc2d2",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610688883036,
+          "stop" : 1610688883150,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fce4b00e494e70aa92f96a0a3f17d73e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
