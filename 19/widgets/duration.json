@@ -1,0 +1,71 @@
+[ {
+  "uid" : "c07a4d9d92d873b8",
+  "name" : "test_un_select_checkbox_2",
+  "time" : {
+    "start" : 1610800248677,
+    "stop" : 1610800248791,
+    "duration" : 114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "94af5a517b3baead",
+  "name" : "test_select_checkbox_1",
+  "time" : {
+    "start" : 1610800248358,
+    "stop" : 1610800248472,
+    "duration" : 114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "711c1f0b04c57a13",
+  "name" : "test_invalid_login",
+  "time" : {
+    "start" : 1610800249268,
+    "stop" : 1610800249383,
+    "duration" : 115
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7381a198f4a65738",
+  "name" : "test_add_element",
+  "time" : {
+    "start" : 1610800247532,
+    "stop" : 1610800247683,
+    "duration" : 151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b1788964d271877",
+  "name" : "test_delete_element",
+  "time" : {
+    "start" : 1610800248056,
+    "stop" : 1610800248174,
+    "duration" : 118
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "24f40f167850337f",
+  "name" : "test_valid_login",
+  "time" : {
+    "start" : 1610800249575,
+    "stop" : 1610800249695,
+    "duration" : 120
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b63420ce1fedec94",
+  "name" : "test_forgot_password",
+  "time" : {
+    "start" : 1610800248957,
+    "stop" : 1610800249071,
+    "duration" : 114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
