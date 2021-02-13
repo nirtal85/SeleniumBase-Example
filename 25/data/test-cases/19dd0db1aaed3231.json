@@ -1,0 +1,94 @@
+{
+  "uid" : "19dd0db1aaed3231",
+  "name" : "test_add_element",
+  "fullName" : "tests.test_add_remove_elements.TestAddRemoveElements#test_add_element",
+  "historyId" : "1ae687e609ee12c3a140c0f757f2bc39",
+  "time" : {
+    "start" : 1613223438322,
+    "stop" : 1613223438499,
+    "duration" : 177
+  },
+  "description" : "Add new element to page",
+  "descriptionHtml" : "<p>Add new element to page</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
+  "statusTrace" : "tests/base_test.py:9: in setUp\n    super().setUp()\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py:6384: in setUp\n    self.driver = self.get_new_driver(browser=self.browser,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <tests.test_add_remove_elements.TestAddRemoveElements testMethod=test_add_element>\nbrowser = 'remote', headless = True, locale_code = None\nservername = 'localhost', port = '4444', proxy = None, agent = None\nswitch_to = True, cap_file = None, cap_string = None, disable_csp = False\nenable_ws = True, enable_sync = False, use_auto_ext = False, no_sandbox = False\ndisable_gpu = False, incognito = False, guest_mode = False, devtools = False\nswiftshader = False, block_images = False, user_data_dir = None\nextension_zip = None, extension_dir = None, is_mobile = False, d_width = None\nd_height = None, d_p_r = None\n\n    def get_new_driver(self, browser=None, headless=None, locale_code=None,\n                       servername=None, port=None, proxy=None, agent=None,\n                       switch_to=True, cap_file=None, cap_string=None,\n                       disable_csp=None, enable_ws=None, enable_sync=None,\n                       use_auto_ext=None, no_sandbox=None, disable_gpu=None,\n                       incognito=None, guest_mode=None, devtools=None,\n                       swiftshader=None, block_images=None, user_data_dir=None,\n                       extension_zip=None, extension_dir=None, is_mobile=False,\n                       d_width=None, d_height=None, d_p_r=None):\n        \"\"\" This method spins up an extra browser for tests that require\n            more than one. The first browser is already provided by tests\n            that import base_case.BaseCase from seleniumbase. If parameters\n            aren't specified, the method uses the same as the default driver.\n            @Params\n            browser - the browser to use. (Ex: \"chrome\", \"firefox\")\n            headless - the option to run webdriver in headless mode\n            locale_code - the Language Locale Code for the web browser\n            servername - if using a Selenium Grid, set the host address here\n            port - if using a Selenium Grid, set the host port here\n            proxy - if using a proxy server, specify the \"host:port\" combo here\n            switch_to - the option to switch to the new driver (default = True)\n            cap_file - the file containing desired capabilities for the browser\n            cap_string - the string with desired capabilities for the browser\n            disable_csp - an option to disable Chrome's Content Security Policy\n            enable_ws - the option to enable the Web Security feature (Chrome)\n            enable_sync - the option to enable the Chrome Sync feature (Chrome)\n            use_auto_ext - the option to enable Chrome's Automation Extension\n            no_sandbox - the option to enable the \"No-Sandbox\" feature (Chrome)\n            disable_gpu - the option to enable Chrome's \"Disable GPU\" feature\n            incognito - the option to enable Chrome's Incognito mode (Chrome)\n            guest - the option to enable Chrome's Guest mode (Chrome)\n            devtools - the option to open Chrome's DevTools on start (Chrome)\n            swiftshader  the option to use \"--use-gl=swiftshader\" (Chrome-only)\n            block_images - the option to block images from loading (Chrome)\n            user_data_dir - Chrome's User Data Directory to use (Chrome-only)\n            extension_zip - A Chrome Extension ZIP file to use (Chrome-only)\n            extension_dir - A Chrome Extension folder to use (Chrome-only)\n            is_mobile - the option to use the mobile emulator (Chrome-only)\n            d_width - the device width of the mobile emulator (Chrome-only)\n            d_height - the device height of the mobile emulator (Chrome-only)\n            d_p_r - the device pixel ratio of the mobile emulator (Chrome-only)\n        \"\"\"\n        if self.browser == \"remote\" and self.servername == \"localhost\":\n>           raise Exception('Cannot use \"remote\" browser driver on localhost!'\n                            ' Did you mean to connect to a remote Grid server'\n                            ' such as BrowserStack or Sauce Labs? In that'\n                            ' case, you must specify the \"server\" and \"port\"'\n                            ' parameters on the command line! '\n                            'Example: '\n                            '--server=user:key@hub.browserstack.com --port=80')\nE           Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80\n\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py:1823: Exception",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1613223438308,
+      "stop" : 1613223438308,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1613223439174,
+      "stop" : 1613223439174,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_remove_elements"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddRemoveElements"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-445"
+  }, {
+    "name" : "thread",
+    "value" : "5006-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_add_remove_elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "19dd0db1aaed3231.json",
+  "parameterValues" : [ ]
+}

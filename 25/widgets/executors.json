@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://nirtal85.github.io/SeleniumBase-Example",
+  "buildOrder" : 25,
+  "buildName" : "GitHub Actions Run #563811065",
+  "buildUrl" : "https://github.com/nirtal85/SeleniumBase-Example/actions/runs/563811065",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://nirtal85.github.io/SeleniumBase-Example/25/"
+} ]
