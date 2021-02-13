@@ -1,0 +1,111 @@
+[ {
+  "uid" : "8d530568ca60450d",
+  "name" : "test_select_checkbox_1",
+  "time" : {
+    "start" : 1613221581926,
+    "stop" : 1613221582042,
+    "duration" : 116
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "90516c2f9932ab14",
+  "name" : "test_invalid_login",
+  "time" : {
+    "start" : 1613221583749,
+    "stop" : 1613221583867,
+    "duration" : 118
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8152ab2b828703d3",
+  "name" : "test_add_element",
+  "time" : {
+    "start" : 1613221579203,
+    "stop" : 1613221579561,
+    "duration" : 358
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4aa12b7c4b3dcbcd",
+  "name" : "test_remove_add_checkbox[remove]",
+  "time" : {
+    "start" : 1613221582655,
+    "stop" : 1613221582655,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ce58a249e2b5da02",
+  "name" : "test_enable_disable_text_field[enable]",
+  "time" : {
+    "start" : 1613221583402,
+    "stop" : 1613221583402,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3480d6726eeca2af",
+  "name" : "test_delete_element",
+  "time" : {
+    "start" : 1613221581540,
+    "stop" : 1613221581656,
+    "duration" : 116
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e858cf60148c4807",
+  "name" : "test_forgot_password",
+  "time" : {
+    "start" : 1613221583411,
+    "stop" : 1613221583533,
+    "duration" : 122
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "123ecfa41e80a4ef",
+  "name" : "test_remove_add_checkbox[add]",
+  "time" : {
+    "start" : 1613221583026,
+    "stop" : 1613221583026,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ffebe134751bf8c4",
+  "name" : "test_valid_login",
+  "time" : {
+    "start" : 1613221584095,
+    "stop" : 1613221584211,
+    "duration" : 116
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e2c1ff79cc0a8996",
+  "name" : "test_un_select_checkbox_2",
+  "time" : {
+    "start" : 1613221582309,
+    "stop" : 1613221582425,
+    "duration" : 116
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1bf44163586e0289",
+  "name" : "test_enable_disable_text_field[disable]",
+  "time" : {
+    "start" : 1613221583406,
+    "stop" : 1613221583406,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

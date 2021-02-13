@@ -1,0 +1,65 @@
+{
+  "uid" : "ce58a249e2b5da02",
+  "name" : "test_enable_disable_text_field[enable]",
+  "fullName" : "tests.test_dynamic_controls.TestDynamicControls#test_enable_disable_text_field",
+  "historyId" : "4e4946010afcd239c5e91372ce999278",
+  "time" : {
+    "start" : 1613221583402,
+    "stop" : 1613221583402,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestDynamicControls' object has no attribute 'click_link_text'",
+  "statusTrace" : "self = <tests.test_dynamic_controls.TestDynamicControls object at 0x7f67da29c2e0>\naction = 'enable'\n\n    @mark.parametrize(\"action\", [\"enable\", \"disable\"])\n    def test_enable_disable_text_field(self, action):\n>       self.click_link_text(MainPage.dynamic_controls)\nE       AttributeError: 'TestDynamicControls' object has no attribute 'click_link_text'\n\ntests/test_dynamic_controls.py:23: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dynamic_controls"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDynamicControls"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-381"
+  }, {
+    "name" : "thread",
+    "value" : "4890-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dynamic_controls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "action",
+    "value" : "'enable'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ce58a249e2b5da02.json",
+  "parameterValues" : [ "'enable'" ]
+}

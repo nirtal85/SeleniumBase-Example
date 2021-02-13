@@ -1,0 +1,65 @@
+{
+  "uid" : "1bf44163586e0289",
+  "name" : "test_enable_disable_text_field[disable]",
+  "fullName" : "tests.test_dynamic_controls.TestDynamicControls#test_enable_disable_text_field",
+  "historyId" : "d66398b8c17c99556861d59ec28face0",
+  "time" : {
+    "start" : 1613221583406,
+    "stop" : 1613221583406,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestDynamicControls' object has no attribute 'click_link_text'",
+  "statusTrace" : "self = <tests.test_dynamic_controls.TestDynamicControls object at 0x7f67d9fe16a0>\naction = 'disable'\n\n    @mark.parametrize(\"action\", [\"enable\", \"disable\"])\n    def test_enable_disable_text_field(self, action):\n>       self.click_link_text(MainPage.dynamic_controls)\nE       AttributeError: 'TestDynamicControls' object has no attribute 'click_link_text'\n\ntests/test_dynamic_controls.py:23: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dynamic_controls"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDynamicControls"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-381"
+  }, {
+    "name" : "thread",
+    "value" : "4890-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dynamic_controls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "action",
+    "value" : "'disable'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1bf44163586e0289.json",
+  "parameterValues" : [ "'disable'" ]
+}
