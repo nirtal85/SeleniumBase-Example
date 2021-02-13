@@ -1,0 +1,130 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: Cannot use \"remote\" browser driver on localhost! Did you mean to connect to a remote Grid server such as BrowserStack or Sauce Labs? In that case, you must specify the \"server\" and \"port\" parameters on the command line! Example: --server=user:key@hub.browserstack.com --port=80",
+      "children" : [ {
+        "name" : "test_add_element",
+        "uid" : "42bdcac1de10a95b",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219757989,
+          "stop" : 1613219758330,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_element",
+        "uid" : "1210e5b41aab5fad",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219759800,
+          "stop" : 1613219759917,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_select_checkbox_1",
+        "uid" : "fd7f9fd0bc7b3701",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219760142,
+          "stop" : 1613219760260,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_un_select_checkbox_2",
+        "uid" : "2fdfbd1f3e32a802",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219760495,
+          "stop" : 1613219760612,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_enable_disable_text_field",
+        "uid" : "adffeb55ca04405d",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219760813,
+          "stop" : 1613219760930,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_remove_add_checkbox",
+        "uid" : "36c5c94fd262ade4",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219761178,
+          "stop" : 1613219761294,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_forgot_password",
+        "uid" : "970b6f7c2e1af57f",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219761539,
+          "stop" : 1613219761657,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invalid_login",
+        "uid" : "570deb4e070788ac",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219761863,
+          "stop" : 1613219761980,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_valid_login",
+        "uid" : "5907695766d34fe3",
+        "parentUid" : "fce4b00e494e70aa92f96a0a3f17d73e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613219762207,
+          "stop" : 1613219762324,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fce4b00e494e70aa92f96a0a3f17d73e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
